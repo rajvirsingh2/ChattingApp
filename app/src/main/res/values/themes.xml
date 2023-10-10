@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:height="http://schemas.android.com/apk/res-auto">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Chatting" parent="Theme.Material3.Light">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Chatting" parent="Base.Theme.Chatting">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+
+</resources>
